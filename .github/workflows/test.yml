@@ -23,8 +23,7 @@ jobs:
       - run: flutter format .
       - run: dart fix --dry-run
       - run: dart fix --apply
-      - run: flutter analyze
-
+      # - run: flutter analyze
       - run: flutter test
 
   build_ios:
