@@ -1,0 +1,52 @@
+name: tabirdunyasi
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_messaging: ^13.0.0
+  firebase_core: ^1.21.1
+  flutter_widget_from_html_core: ^0.8.5+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.10.0
+  flutter_app_name: ^0.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_app_name:
+  name: "Tabircim"
+
+flutter_icons:
+  android: "logoicon"
+  ios: true
+  image_path: "assets/icon.png"
+# flutter pub run change_app_package_name:main ruyaci.financemoney.com
+# flutter pub run flutter_launcher_icons:main
+# flutter pub run flutter_app_name
+
+# dart pub global activate flutterfire_cli
+# flutterfire configure
+
+# flutter build appbundle --build-name=9.1.0 --build-number=10
+
+# flutter upgrade .
+# dart migrate.
+# flutter pub outdated --mode=null-safety
+# flutter pub upgrade --null-safety
+# dart migrate
