@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'arama.dart';
+import '/arama.dart';
 
 class anasayfa extends StatefulWidget {
   const anasayfa({Key? key}) : super(key: key);

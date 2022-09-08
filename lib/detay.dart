@@ -1,6 +1,6 @@
 import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart';
 import 'package:flutter/material.dart';
-import 'arama.dart';
+import '/arama.dart';
 
 class detay extends StatefulWidget {
   String ara;
