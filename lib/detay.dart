@@ -33,7 +33,7 @@ class _detayState extends State<detay> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/bg.jpg'),
+            image: AssetImage('assets/bg.png'),
             fit: BoxFit.cover,
           ),
         ),

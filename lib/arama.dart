@@ -42,7 +42,7 @@ class _aramaState extends State<arama> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/bg.jpg'),
+            image: AssetImage('assets/bg.png'),
             fit: BoxFit.cover,
           ),
         ),
